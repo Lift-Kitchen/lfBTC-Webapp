@@ -1,0 +1,47 @@
+body {
+  background: #fff;  
+  margin: 0;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+.dFKMXq {
+  max-width: 65% !important;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 9px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15%;
+}
+
+.footerlink {
+  color: #fff;
+}
