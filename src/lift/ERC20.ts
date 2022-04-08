@@ -54,7 +54,7 @@ class ERC20 {
     recipient: string,
     amount: BigNumber,
   ): Promise<TransactionResponse> {
-    return this.contract.transferFro (sender, recipient, amount);
+    return this.contract.transferFrom (sender, recipient, amount);
   }
 
   async displayedBalanceOf(account: string): Promise<string> {
